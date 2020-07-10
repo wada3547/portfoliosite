@@ -1,0 +1,184 @@
+body{
+  font: 'Roboto';
+  margin: auto;
+}
+header{
+  padding: 0px 120px;
+  background-color: #1B1310;
+  border-bottom: 1px solid #fff;
+}
+
+.header1{
+  display: flex;
+}
+.header-list1{
+  margin-left: auto;
+  line-height:1.31;
+  padding:27px 0px;
+
+}
+.header-list1 a:hover{
+  opacity: 0.8;
+}
+.logo{
+font-size: 26px;
+line-height: 1.3;
+padding: 19px 0px;
+color: #fff;
+}
+
+.sarvice1,.sarvice2,.sarvice3{
+  color: #fff;
+  text-decoration:none;
+}
+.sarvice2{
+  margin: 0px 55px;
+}
+.img-contents{
+  height: 740px;
+  text-align: center;
+}
+.Design{
+  color: #fff;
+  font-size: 50px;
+  border: 1px solid #fff;
+  position: relative;
+    bottom: 439px;
+    display: inline-block;
+  letter-spacing: 0.05em;
+  line-height: 0.48;
+  padding: 35px 47px;
+}
+section{
+  text-align: center;
+}
+main{
+  width: 1030px;
+  margin: auto;
+
+}
+.contents-title1,.contents-title2,.contents-title3{
+  font-size: 36px;
+  line-height: 0.66;
+  letter-spacing: 0.05em;
+  text-align: center;
+}
+.contents-title1{
+    margin-top: 100px;
+}
+.contents-title2{
+  margin-top: 152px;
+}
+.contents-messeage1,.contents-messeage2,.contents-messeage3{
+  font-size: 24px;
+  letter-spacing: 0.1em;
+  line-height: 2;
+  font:"Noto Sans CJK JP"
+
+}
+.contents-messeage1{
+  padding-top: 70px;
+}
+.text-contents,.text-contents2{
+  letter-spacing:0.05em;
+  line-height: 2.14;
+  font-size: 14px;
+  font:"Noto Sans CJK JP";
+  margin-top: 42px;
+}
+.title-3,.contents-menu2{
+  display: flex;
+  margin-top: 70px;
+}
+.contents-menu3{
+  width: 47%;
+}
+.contents-menu3 img{
+  margin-left: 70px;
+}
+.contents-text2{
+  margin-left: 70px;
+}
+.contents-title3{
+  margin-top: 150px;
+  margin-bottom: 70px;
+}
+.box-item{
+  display: flex;
+
+}
+.box-contents2{
+  margin: 0px 34px;
+}
+.box-contents1,.box-contents2,.box-contents3{
+    box-shadow:0px 3px 6px rgba(27,19,16,0.4);
+}
+.text1,.text2,.text3{
+  letter-spacing: 0.05em;
+  line-height: 1.78;
+  padding: 25px 32px 25px 34px;
+  font-size: 14px;
+  font: "Hiragino Kaku Gothic ProN";
+}
+form{
+  width: 700px;
+  height: 633px;
+  margin: auto;
+
+}
+.form-title1{
+font-size: 24px;
+ letter-spacing: 0.1em;
+ line-height: 2;
+ font: "Noto Sans CJK JP";
+ margin: 152px 0px 69px 0px;
+ text-align: center;
+}
+.form-area1 p{
+  font-size: 16px;
+  letter-spacing: 0.05em;
+  line-height: 1.87;
+  font: "Hiragino Kaku Gothic ProN"
+}
+.form-name{
+margin-top: 22px;
+
+}
+input{
+  border: 1px solid #1B1310;
+  width: 700px;
+  height: 30px;
+  outline: none;
+}
+textarea{
+  border:  1px solid #1B1310;
+  width: 700px;
+  height: 171px;
+  outline: none;
+}
+button{
+  font-size: 20px;
+  line-height: 1.5;
+  letter-spacing: 0.05em;
+  font: "Avenir";
+  padding: 16px 97px;
+  border-radius: 30px;
+  background-color: #1B1310;
+  outline:0;
+}
+.button-name{
+    color: #fff;
+    text-align: center;
+    margin: 50px 0px;
+    outline:0;
+}
+button:hover{
+opacity: 0.8;
+}
+footer{
+  padding: 31px 0px;
+text-align: center;
+background-color: #1B1310;
+color: #fff;
+margin-top: 93px;
+}
