@@ -1,0 +1,203 @@
+@media screen and (max-width:375px){
+    /*header*/
+header{
+    width: 350px;
+    height: 40px;
+}
+.header-list{
+    font-size: 14px;
+    line-height: 1.71;    
+    padding: 13px 0px 12px 0px ;
+    font: Bold 14px/24px YuGothic;
+}
+.header-list2{
+    margin:  0px 20px;
+}
+.header-logo img{
+    width: 70px;
+    height: 25px;
+    margin: 9px 0px;
+}
+
+/*メインの写真*/
+.section-contents1{
+    padding: 40px 115px 43px 101px;
+}
+section img{
+    width: 150px;
+    height: 80px;
+}
+/*メインの文章*/
+main{
+    width: 350px;
+}
+.main-title{
+    font-size: 20px;
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+.main-text p{
+
+    font-size: 16px;
+    line-height: 1.68em;
+}
+.main-text{
+    margin-bottom: 50px;
+}
+.title-text{
+    font-size: 26px;
+    padding-top: 70px;
+    font: Bold 26px/44px YuGothic;
+}
+.article-title{
+    width: 350px;
+}
+.article-contents1 img,.article-contents2 img,.article-contents3 img{
+    width: 345px;
+    height: 213px;
+}
+.article-contents1{
+    display: block;
+    margin-top: 50px;
+}
+.article-contents1 img,.article-contents3 img{
+    margin: 0px 0px 50px 0px;
+}
+.contents-title,.contents-title1{
+    font-size: 20px;
+    margin-bottom: 31px;
+    font:Bold 20px/34px YuGothic;
+}
+.text-contents{
+    font-size: 16px;
+    font: Medium 18px/27px YuGothic;
+    width: 345px;
+    margin-bottom: 50px;
+}
+.article-contents1 img,.article-contents2 img,.article-contents3 img{
+    margin: auto;
+}
+.article-contents2,.article-contents3{
+    margin-top: 40px;
+    display: block;
+}
+.contents-title1{
+    margin-top:40px;
+}
+.contents-title{
+    margin-top: 50px;
+}
+.text-contents,.article-contents2,.article-contents3{
+    margin: auto;
+}
+.text-contents{
+    padding-bottom: 50px;
+}
+
+/*CAT2*/
+.article-section2 {
+    width: 350px;
+}
+.section0{
+    display: block;
+}
+.section1 img{
+   margin-top: 50px;
+}
+.section1 p{
+    margin-bottom: auto;
+
+}
+
+
+.section-contents2-1{
+    font-size: 16px;
+    line-height: 1.72;
+    width: 350px;
+    font:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 70px 0px 80px 0px;
+    margin-top: 80px;
+}
+.section-contents2{
+    background-image: none;
+    background-image: url(./img/bg-sp.jpg);
+}
+
+.section-contents3-1{
+    width: 350px;
+    position:unset;
+    font: Bold 16px/27px YuGothic;
+}
+.section-contents3-2{
+    position: unset;
+    margin-top: 30px;
+    width: 350px;
+    font:Bold 16px/27px YuGothic;
+}
+
+/*CAT3*/
+.aside-contents0{
+    margin-top: 50px;
+    line-height: unset;   
+}
+.aside-1{
+    margin-top: 8px;
+}
+.aside-2{
+    height: 26px;
+}
+.aside-contents,.aside-contents1{
+    display: unset;
+    border: none;
+}
+.aside-contents1-1{
+    display: flex;
+    border-top: 1px solid;
+}
+.aside-section{
+    width: 350px;
+    text-align: unset;
+}
+.aside-3{
+    font-size:14px;
+}
+.aside-contents0{
+    border-bottom: 1px solid;
+}
+.btn1{
+    width: 350px;
+    margin-bottom: 80px;
+    margin-top: 50px;
+}
+footer{
+    margin-top: unset;
+}
+.footer-title{
+    
+    display: block;
+    width: 350px;
+    font-size: 14px;
+    font: Medium 14px/24px YuGothic;;
+}
+.footer-contents1-1{
+    margin: 0px 0px 32px 0px;
+    font-size: 14px;
+    font: Bold 14px/40px YuGothic;
+
+}
+.footer-contents1{
+    padding-top: 55px;
+    margin-top: unset;
+    margin-right: unset;
+    font-size: 14px;
+    font: Bold 14px/40px YuGothic;
+}
+.footer-list{
+    margin-bottom: 35px;
+}
+.footer-footer{
+    margin-top: 50px;
+    line-height: unset;
+    padding: 12px 0px;
+}
+}
