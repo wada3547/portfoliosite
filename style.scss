@@ -1,0 +1,209 @@
+@mixin width{
+    width: 1100px;
+    max-width: 100%;
+    margin: auto;
+}
+@mixin ttl {
+    font-size: 32px;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 27px;
+    
+}
+
+.header{
+
+    &-logo{
+        position: absolute;
+        height: 0;
+        background-color: transparent;
+        padding: 22px 0px 0px 59px;
+       
+
+    }
+    &-logo0{
+        position: absolute;
+        height: 0;
+        background-color: transparent;
+       }
+    &-bg{
+        max-width: 100%;
+        margin: -24px 0px 0px 643px;
+    img{
+        width: 100%;
+        height: 489px;
+    }
+}
+    &-ttl{
+        position: relative;
+        bottom: 310px;
+        left: 845px;
+        margin-right: 845px;
+        color: #fff;
+        font-family: 'montserrat';
+        max-width: 100%;
+    h1{
+        font-size: 72px;
+        line-height: 86px;
+        letter-spacing: 3px;
+        width: 100%;
+    }
+    p{
+        font-size: 20px;
+        width: 100%;
+    }
+}
+    &-img{
+        max-width: 100%;
+    img{
+        width: 100%;
+
+        }
+    }
+        &-list li{
+            list-style:none;
+            margin-bottom: 30px;
+            text-align: center;
+            position: relative;
+            top: 180px;
+        }
+        &-list img{
+            position: relative;
+            left: 58px;
+        }
+
+
+        #show{
+            position: absolute;
+            top: 0;
+            right: 0;
+            color: #fff;
+            margin: 36px 58px;
+            outline: 0;
+        }
+
+    
+        #hide{
+            float: right;
+            margin: 38px 58px 0px 0px;
+        }
+    
+        nav{
+            position: fixed;
+            top: 0;
+            right: 250px;
+            bottom: 0;
+            width: 520px;
+            margin-right: 250px;
+            margin-right: -770px;
+            background-color: #222;
+            opacity: 0.95;
+            color: #fff;
+            font-family: 'Montserrat', sans-serif;
+            z-index: 1;
+        }
+    }
+             //vision
+    .vision{
+        max-width: 100%;
+        margin: 0px 226px 0px 170px;
+        position: relative;
+        left: 226px;
+        bottom:34px;
+        h2{
+            @include ttl
+        }
+        h3{
+           font-size: 24px;
+           font-family: 'Sawarabi Gothic', sans-serif;
+           margin-bottom: 25px;
+        }
+        &-txt{
+           font-family: 'Noto Sans JP', sans-serif;
+        }
+        &-img{
+            position: relative;
+            right: 226px;
+            margin-top: 120px;
+            z-index: 1;
+
+    }
+    }    
+          
+         //ceoメッセージ
+.ceo{
+    &-txt h2{
+        @include ttl;
+        width: 100%;
+    }
+    &-txt p{
+        font-family: 'Noto Sans JP', sans-serif;
+        width: 100%;
+    }
+    &-txt{
+        max-width: 100%;
+        background-color: #f0f0f0;
+        padding: 120px 185px 90px;
+        position: relative;
+        bottom: 159px;
+        right: -94px;
+        margin-right: 264px;
+    }
+}
+
+.company{
+    @include width;
+    position: relative;
+    bottom: 80px;
+    &-ttl{
+        @include ttl;
+        border-bottom: 1px solid #dddddd;
+    }
+    &-info{
+    position: relative;
+    left: 300px;
+    margin-right: 300px;
+    margin-bottom:40px;
+    }
+    &-content1{
+        display: flex;
+        border-bottom: 1px solid #dddddd;
+        padding: 17px 0px;
+        }
+    &-name{
+        font-family:'Sawarabi Gothic', sans-serif;
+        
+    }
+    &-list1,&-list3{
+        position: relative;
+        left: 112px;
+    }
+    &-list2{
+        position: relative;
+        left: 64px;
+    }
+    &-list4,&-list5{
+        position: relative;
+        left: 96px;
+    }
+    &-list6{
+        position: relative;
+        left: 80px;
+    }
+
+    }
+    .g-map iframe{
+        width: 100%;
+        height: 360px;
+    }
+
+    .footer{
+        font-size: 10px;
+        background-color: #525252;
+        text-align: center;
+        color: #fff;
+        font-family: 'Montserrat medium';
+        height:50px;
+        padding-top: 18px;
+        margin-top: 33px;
+        
+    }

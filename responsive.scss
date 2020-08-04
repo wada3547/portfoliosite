@@ -1,0 +1,323 @@
+$pc:1280px; //pc
+$tab:768px; //タブレット
+$sp:500px;  
+$sp2:320px;
+
+
+@mixin pc {
+    @media (max-width: ($pc)) {
+      @content;
+    }
+  }
+
+@mixin tab {
+    @media (max-width: ($tab)) {
+      @content;
+    }
+  }
+  @mixin sp {
+    @media (max-width: ($sp)) {
+      @content;
+    }
+}
+  @mixin sp2{
+    @media (max-width: ($sp2)) {
+     @content;
+    
+   }
+}
+
+@mixin  width {
+  width: 583px;
+  margin: auto;
+  max-width: 100%;
+  
+}
+
+.header{
+    
+      &-img{
+        @include tab{
+        width: 587px;
+        height: 529px;
+      }
+      @include sp{
+        width: 287px;
+        height: 387px;
+      }
+      }
+      &-img img{
+        @include tab{
+        width: 100%;
+        height: 100%;
+      }
+   }
+      &-bg{
+        @include pc{
+        margin: -24px 0px 0px 483px;
+       }
+       @include tab{
+        margin: -24px 0px 0px 362px;
+       }
+       @include sp{
+        margin: -24px 0px 0px 50%;
+       }
+      }
+      &-bg img{
+      @include tab{
+        width: 100%;
+        height: 615px; 
+        }
+      @include sp{
+        width: 100%;
+        height: 449px;
+      }
+      }
+      &-logo{
+        padding: 30px 0px 0px 30px;
+      }
+    #show{
+      @include tab{
+      margin: 32px 58px;
+     }
+     @include sp{
+       margin: 24px 15px;
+       font-size: 10px;
+     }
+    }
+     #hide{
+       @include sp{
+        margin: 24px 15px 0px 0px;
+        font-size: 10px;   
+       }
+     }
+    &-ttl{
+      @include pc{
+        position: relative;
+        left: 797px;
+        margin-right: 797px;
+      }
+      @include tab{
+       
+        margin-right: 406px;
+        position: relative;
+        bottom: 417px;
+        left: 353px;
+      }
+      @include sp{
+        margin-right: 52px;
+        position: relative;
+        bottom: 321px;
+        left: 52px;
+    
+      }
+      h1{
+        @include pc{
+          font-size: 68px;
+        }
+        @include tab{
+        font-size: 52px;
+        line-height: 66px;
+      }
+      @include sp{
+        letter-spacing: 0em;
+      }
+    }
+  }
+      p{
+        @include tab{
+        font-size: 16px;
+      }
+    }
+      &-logo{
+        @include tab{
+        padding: 20px 0px 0px 30px;
+      }
+    }
+      &-logo img{
+        @include tab{
+        width: 189px;
+        height: 20px;
+      }
+  }
+      nav{
+        @include sp{
+          width: 250px;
+        }
+      }
+  }
+
+  .vision{
+    @include tab{
+      @include width;
+      position: relative;
+      bottom: 51px;
+      left: 56px; 
+        }  
+    @include sp{
+      width: 90%;
+      margin: auto;
+      max-width: 100%;
+      position: relative;
+      bottom: 50px;
+      left:0px;
+      }
+    @include sp2{
+      width: 280px;
+    }
+
+        &-contents h3{
+            @include pc{
+            font-size: 22px;
+            @include tab{
+              font-size: 24px;
+            }
+        }
+        &-contents p{
+          font-size: 14px;
+        }
+    }
+        &-img{
+          @include tab{
+            @include width;
+            padding: 80px 0px 0px 107px;
+          }
+          @include sp{
+            width: 345px;
+            margin: auto;
+            max-width: 100%;
+            padding: 80px 0px 0px 0px;
+            position: relative;
+            left: -15px;
+
+          }
+        }
+        &-img img{
+          @include tab{
+            width: 345px;
+            height: 216px;
+          }
+          @include pc{
+            width: 345px;
+            height: 230px;
+          }
+         @include sp2{
+           width: 100%;
+         }
+        }
+        &-txt{
+          @include sp{
+            font-size: 14px;
+          }
+        }
+}
+  .ceo{
+      &-txt{
+      @include pc{
+      padding: 110px 115px 90px;
+      }
+      @include tab{
+        padding: 109px 39px 78px;
+        position: relative;
+        bottom: 91px;
+        right: -94px;
+        margin-right: 94px;
+        }
+      @include sp{
+        position: relative;
+        bottom: 104px;
+        right: 0;
+        margin: auto;
+        padding: 126px 28px 191px;
+      }
+      }
+      &-txt h2{
+        @include sp{
+        font-size: 31px;
+        padding-bottom: 30px;
+        }
+      }
+      &-txt p{
+        @include sp{
+        font-size: 14px;
+        width: auto;
+      }
+    }
+  }
+
+    .company{
+       @include pc{
+         width: 972px;
+       }
+       @include tab{
+        width: 708px;
+        position: relative;
+        bottom: 68px;
+       }
+       @include sp{
+        width: 90%;
+        position: relative;
+        bottom: 80px;
+       }
+       @include sp2{
+         width: 280px;
+       }
+
+    
+    &-info{
+      @include tab{
+        position: relative;
+        left: 30px;
+        margin-right: 30px;
+      }
+      @include sp{
+        position: relative;
+        left: 0px;
+        margin: auto;
+    }
+      }
+      &-content1{
+        @include sp{
+          font-size: 14px;
+          padding:21px 0px;
+        }
+      }
+      &-list1,&-list3{
+        position: relative;
+        left:135px;
+      }
+      &-list2{
+        position: relative;
+        left: 93px;
+      }
+      &-list4,&-list5{
+        position: relative;
+        left: 121px;
+      }
+      &-list6{
+        position: relative;
+        left: 107px;
+      }
+     
+      
+    .g-map iframe {
+      @include tab{
+      width: 100%;
+      height: 230px;
+      }
+      @include sp{
+      height: 470px;
+      margin-top: 40px;
+      }
+    }
+  }
+    
+
+    .footer{
+      @include tab{
+      margin-top: 5px;  
+    }
+    @include sp{
+      margin-top: -5px;
+    }
+  }

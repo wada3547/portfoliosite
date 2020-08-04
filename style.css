@@ -1,0 +1,215 @@
+.header-logo {
+  position: absolute;
+  height: 0;
+  background-color: transparent;
+  padding: 22px 0px 0px 59px;
+}
+
+.header-logo0 {
+  position: absolute;
+  height: 0;
+  background-color: transparent;
+}
+
+.header-bg {
+  max-width: 100%;
+  margin: -24px 0px 0px 643px;
+}
+
+.header-bg img {
+  width: 100%;
+  height: 489px;
+}
+
+.header-ttl {
+  position: relative;
+  bottom: 310px;
+  left: 845px;
+  margin-right: 845px;
+  color: #fff;
+  font-family: 'montserrat';
+  max-width: 100%;
+}
+
+.header-ttl h1 {
+  font-size: 72px;
+  line-height: 86px;
+  letter-spacing: 3px;
+  width: 100%;
+}
+
+.header-ttl p {
+  font-size: 20px;
+  width: 100%;
+}
+
+.header-img {
+  max-width: 100%;
+}
+
+.header-img img {
+  width: 100%;
+}
+
+.header-list li {
+  list-style: none;
+  margin-bottom: 30px;
+  text-align: center;
+  position: relative;
+  top: 180px;
+}
+
+.header-list img {
+  position: relative;
+  left: 58px;
+}
+
+.header #show {
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: #fff;
+  margin: 36px 58px;
+  outline: 0;
+}
+
+.header #hide {
+  float: right;
+  margin: 38px 58px 0px 0px;
+}
+
+.header nav {
+  position: fixed;
+  top: 0;
+  right: 250px;
+  bottom: 0;
+  width: 520px;
+  margin-right: 250px;
+  margin-right: -770px;
+  background-color: #222;
+  opacity: 0.95;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  z-index: 1;
+}
+
+.vision {
+  max-width: 100%;
+  margin: 0px 226px 0px 170px;
+  position: relative;
+  left: 226px;
+  bottom: 34px;
+}
+
+.vision h2 {
+  font-size: 32px;
+  font-family: 'Montserrat', sans-serif;
+  padding-bottom: 27px;
+}
+
+.vision h3 {
+  font-size: 24px;
+  font-family: 'Sawarabi Gothic', sans-serif;
+  margin-bottom: 25px;
+}
+
+.vision-txt {
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+.vision-img {
+  position: relative;
+  right: 226px;
+  margin-top: 120px;
+  z-index: 1;
+}
+
+.ceo-txt h2 {
+  font-size: 32px;
+  font-family: 'Montserrat', sans-serif;
+  padding-bottom: 27px;
+  width: 100%;
+}
+
+.ceo-txt p {
+  font-family: 'Noto Sans JP', sans-serif;
+  width: 100%;
+}
+
+.ceo-txt {
+  max-width: 100%;
+  background-color: #f0f0f0;
+  padding: 120px 185px 90px;
+  position: relative;
+  bottom: 159px;
+  right: -94px;
+  margin-right: 264px;
+}
+
+.company {
+  width: 1100px;
+  max-width: 100%;
+  margin: auto;
+  position: relative;
+  bottom: 80px;
+}
+
+.company-ttl {
+  font-size: 32px;
+  font-family: 'Montserrat', sans-serif;
+  padding-bottom: 27px;
+  border-bottom: 1px solid #dddddd;
+}
+
+.company-info {
+  position: relative;
+  left: 300px;
+  margin-right: 300px;
+  margin-bottom: 40px;
+}
+
+.company-content1 {
+  display: flex;
+  border-bottom: 1px solid #dddddd;
+  padding: 17px 0px;
+}
+
+.company-name {
+  font-family: 'Sawarabi Gothic', sans-serif;
+}
+
+.company-list1, .company-list3 {
+  position: relative;
+  left: 112px;
+}
+
+.company-list2 {
+  position: relative;
+  left: 64px;
+}
+
+.company-list4, .company-list5 {
+  position: relative;
+  left: 96px;
+}
+
+.company-list6 {
+  position: relative;
+  left: 80px;
+}
+
+.g-map iframe {
+  width: 100%;
+  height: 360px;
+}
+
+.footer {
+  font-size: 10px;
+  background-color: #525252;
+  text-align: center;
+  color: #fff;
+  font-family: 'Montserrat medium';
+  height: 50px;
+  padding-top: 18px;
+  margin-top: 33px;
+}
